@@ -121,7 +121,7 @@ const Footer: NextPage<FooterType> = ({
             Team and policies
           </div>
           <div className="self-stretch h-[104px] flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">
-            <div className="relative leading-[24px]">Terms of servies</div>
+            <div className="relative leading-[24px]">Terms of services</div>
             <div className="relative leading-[24px]">Privacy Policy</div>
             <div className="relative leading-[24px]">Security</div>
           </div>
