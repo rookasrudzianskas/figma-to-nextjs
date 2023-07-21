@@ -1,32 +1,8 @@
 // @ts-nocheck
 import type { NextPage } from "next";
 import "antd/dist/antd.min.css";
-import { Menu, Dropdown, Button } from "antd";
-import {
-  DownOutlined,
-  ArrowLeftOutlined,
-  ArrowRightOutlined,
-  CalendarOutlined,
-  CheckOutlined,
-  ClockCircleOutlined,
-  CloseOutlined,
-  DeleteOutlined,
-  EditOutlined,
-  ExclamationCircleOutlined,
-  HeartOutlined,
-  LeftOutlined,
-  LockOutlined,
-  MailOutlined,
-  PaperClipOutlined,
-  PhoneOutlined,
-  QuestionCircleOutlined,
-  ReloadOutlined,
-  RightOutlined,
-  SearchOutlined,
-  SendOutlined,
-  ShareAltOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
+import { Menu, Dropdown } from "antd";
+import {DownOutlined} from "@ant-design/icons";
 import Header from "../components/header";
 import PropertiesGridContainer from "../components/properties-grid-container";
 import Footer from "../components/footer";
