@@ -17,6 +17,9 @@ type ProjectCardType = {
   propFlex?: Property.Flex;
   propMinWidth?: Property.MinWidth;
   propMaxWidth?: Property.MaxWidth;
+  imgUrl?: string;
+  price?: string;
+  name?: string;
 };
 
 const ProjectCard: NextPage<ProjectCardType> = ({
@@ -32,6 +35,9 @@ const ProjectCard: NextPage<ProjectCardType> = ({
   propFlex,
   propMinWidth,
   propMaxWidth,
+  imgUrl,
+  price,
+  name,
 }) => {
   const card1Style: CSS.Properties = useMemo(() => {
     return {
@@ -50,7 +56,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({
       <img
         className="relative rounded-3xs max-w-full overflow-hidden h-[200px] shrink-0 object-cover"
         alt=""
-        src={propertyImage}
+        src={imgUrl}
       />
       <div className="flex flex-row p-2.5 items-start justify-start">
         <div className="flex-1 relative leading-[20.32px] font-medium">
